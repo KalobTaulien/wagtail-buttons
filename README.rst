@@ -9,7 +9,7 @@ Installation
 
 1. Install the package::
 
-    pip install git+https://github.com/KalobTaulien/wagtail-buttons
+    pip install git+https://github.com/KalobTaulien/wagtail-buttons#egg=wagtail-buttons
 
 
 2. Add it to your ``INSTALLED_APPS``::

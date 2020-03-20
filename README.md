@@ -64,6 +64,6 @@ The easiest way to get this up and running is to clone this repo into your Wagta
 Example:
 ```bash
 cd your-project/
-git clone https://github.com/KalobTaulien/wagtail-buttons#egg=wagtail-buttons
+git clone https://github.com/KalobTaulien/wagtail-buttons.git
 pip install -e wagtail-buttons/
 ```
