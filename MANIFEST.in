@@ -1,0 +1,4 @@
+include LICENSE *.rst *.txt *.md
+recursive-include wagtail_buttons/static *
+global-exclude __pycache__
+global-exclude *.py[co] *.gif

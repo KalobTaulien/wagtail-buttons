@@ -1,0 +1,53 @@
+/**
+ * Add some spacing to the button-section inside of Draftail.
+ */
+ .Draftail-block--button-block {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+/**
+ * Add CSS-based text to the top of the Draftail button-block section.
+ */
+.Draftail-block--button-block::before {
+    content: 'Links will turn into buttons.';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #555;
+    font-size: 12px;
+}
+
+/**
+ * Make buttons look like Wagtail buttons.
+ */
+.Draftail-block--button-block a[role="button"] {
+    line-height: 1.85em;
+    color: #007d7e;
+    background-color: transparent;
+    padding: 0 .8em;
+    font-size: .95em;
+    border-radius: 3px;
+    font-family: Open Sans,Arial,sans-serif;
+    width: auto;
+    font-weight: 400;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #007d7e;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-font-smoothing: auto;
+}
+    /* Hover state */
+    .Draftail-block--button-block a[role="button"]:hover {
+        background-color: #00676a;
+        color: #fff;
+        border-color: transparent;
+    }
